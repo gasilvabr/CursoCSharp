@@ -15,7 +15,7 @@ namespace Exercicio1805
             int a1 = int.Parse(entrada[0]);
             int an = int.Parse(entrada[1]);
             double n = an - a1 + 1;
-            double soma = (a1 + an) * n / 2.0;
+            double soma = (1.0*a1 + an) * n / 2.0;
             Console.WriteLine($"{soma:0}");
             Console.ReadKey();
         }
